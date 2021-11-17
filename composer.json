@@ -1,0 +1,46 @@
+{
+    "name": "homedoctor-es/laravel-holded",
+    "version": "1.0.0",
+    "description": "Laravel integration of the [Holded PHP SDK](https://github.com/homedoctor-es/holded-php-sdk).",
+    "keywords": [
+        "php",
+        "homedoctor-es",
+        "laravel",
+        "holded"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Homedoctor es",
+            "email": "juan.sola@homedoctor.es"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "illuminate/support": ">=5.7",
+        "homedoctor-es/holded-php-sdk": "1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "HomedoctorEs\\Laravel\\Holded\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "HomedoctorEs\\Laravel\\Holded\\HoldedServiceProvider"
+            ],
+            "aliases": {
+                "Holded": "HomedoctorEs\\Laravel\\Holded\\Facades\\Holded"
+            }
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/homedoctor-es/holded-php-sdk.git"
+        }
+    ],
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
