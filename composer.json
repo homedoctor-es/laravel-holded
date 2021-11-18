@@ -18,7 +18,7 @@
     "require": {
         "php": ">=7.0.0",
         "illuminate/support": ">=5.7",
-        "homedoctor-es/holded-php-sdk": "1.0.0"
+        "homedoctor-es/holded-php-sdk": "1.0.1"
     },
     "autoload": {
         "psr-4": {
