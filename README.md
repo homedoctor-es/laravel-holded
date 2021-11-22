@@ -1,6 +1,6 @@
 Holded SDK integration for Laravel
 ===================================
-Laravel integration for the Holded SDK including a notification channel.
+Laravel integration for the Holded SDK.
 
 ## Installation
 
