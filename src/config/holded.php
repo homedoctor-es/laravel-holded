@@ -3,10 +3,10 @@
 return [
     /*
       |--------------------------------------------------------------------------
-      | Api Key
+      | Integration Active
       |--------------------------------------------------------------------------
       |
-      | The Holded API key.
+      | Determine if the integration is active.
      */
     'integration_active' => (bool) env('HOLDED_INTEGRATION_ACTIVE', false),
     /*
