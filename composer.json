@@ -1,6 +1,6 @@
 {
     "name": "homedoctor-es/laravel-holded",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Laravel integration of the [Holded PHP SDK](https://github.com/homedoctor-es/holded-php-sdk).",
     "keywords": [
         "php",
@@ -18,7 +18,7 @@
     "require": {
         "php": ">=7.0.0",
         "illuminate/support": ">=5.7",
-        "homedoctor-es/holded-php-sdk": "1.0.2"
+        "homedoctor-es/holded-php-sdk": "1.0.3"
     },
     "autoload": {
         "psr-4": {
